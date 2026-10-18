@@ -1,0 +1,12 @@
+{
+  "name": "Remix FruitScan AI",
+  "description": "Smart fruit health classifier and calorie estimator with chemical detection (Formalin \u0026 Carbide).",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "image_analysis",
+    "calorie_estimation",
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

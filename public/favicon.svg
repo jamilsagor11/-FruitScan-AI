@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <rect width="512" height="512" rx="112" fill="#050505"/>
+  <circle cx="256" cy="256" r="180" fill="none" stroke="#00FF95" stroke-width="8" stroke-dasharray="16 12" opacity="0.4"/>
+  <!-- Fruit shape -->
+  <path d="M256 140 C180 140, 130 200, 140 290 C150 380, 220 410, 256 410 C292 410, 362 380, 372 290 C382 200, 332 140, 256 140 Z" fill="url(#fruitGlow)"/>
+  <!-- Leaf -->
+  <path d="M256 140 C256 100, 290 80, 310 90 C310 120, 280 140, 256 140 Z" fill="#00FF95"/>
+  <!-- Scanner Beam Line -->
+  <line x1="80" y1="260" x2="432" y2="260" stroke="#00FF95" stroke-width="6" stroke-linecap="round"/>
+  <!-- Pulse glow nodes -->
+  <circle cx="256" cy="260" r="12" fill="#00FF95"/>
+  <circle cx="180" cy="260" r="6" fill="#00E5FF"/>
+  <circle cx="332" cy="260" r="6" fill="#00E5FF"/>
+  <defs>
+    <linearGradient id="fruitGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FF95" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+</svg>
